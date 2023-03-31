@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.sidebar {
+    background-color: rgb(237, 121, 13);
+    width: 20vw;
+    font-family: 'Mukta', sans-serif;
+    height: 100vh;
+}
+
+.sidebar nav {
+    padding: 72px;
+
+}
+
+.sidebar nav li {
+    font-size:25px;
+    list-style: none;
+    
+    /* height: 100vh; */
+    transition:transfom 0.3s ease-in;
+}
+
+.main {
+    /* background-color: brown; */
+    width: 80vw;
+}
+
+.container {
+    display: flex;
+}
+
+.infocontainer {
+    /* background-color: yellow; */
+    
+    height: 65vh;
+    margin: 70px;
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devInfo {
+   /*  width: 50%; */
+    font-family: 'Mukta', sans-serif;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.devPic img {
+    margin: 10px;
+    width: 35vw;
+    height: 35vh;
+}
+
+
+.hello {
+    font-size: 50px;
+}
+
+.name {
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.about {
+  padding-top: 50px;
+    font-size: 20px;
+}
+
+.buttons button{
+    border-radius : 22px;
+    padding:9px 14px;
+    color: white;
+    background-color:blue;
+    font-weight:bold;
+    font-size :21px;
+    margin: 0 3px; 
+}
+.buttons button:hover {
+    color:yellow;
+    background-color :black;
+}
+
+.contactform{
+    padding: 0 34px;
+    padding-top: 144px;
+    font-family:'Mukta', sans-serif;   
+}
+
+.contactform h1{
+    font-family: 'Source Code Pro',monospace;
+}
+
+.contactform form div{
+    padding:10px 0;
+    display : flex;
+    flex-direction: column;
+
+}
+
+.contactform form div input{
+    width: 26vw;
+    border-radius: 5px;
+    margin:6px 0 0 0;
+    padding: 3px;
+}
+.button{
+    size-adjust: 10px;
+    border-radius : 12px;
+    padding:5px 9px;
+    color: rgb(123, 22, 22);
+    background-color:rgb(248, 248, 248);
+    font-weight:bold;
+    font-size :15px;
+    margin: 0 3px; 
+}
+
+.skillcontainer{
+padding:2px;
+}
+
+.skillItem{
+    display:flex;
+    padding:12px;
+    align-items: center;
+}
+.skill{
+    width:265px;
+    height:6px;
+    background-color:brown
+}
+
+.hundered{
+    width:265px;
+    background-color: blueviolet;
+}
+
+.fifty{
+    width:125px;
+    background-color: aqua;
+}
+.t5{
+    width:75px;
+    background-color: chartreuse;
+}
+
+h2{
+    padding: 20px ;
+}
+
+.hamburger{
+    position:absolute;
+    cursor:pointer;
+    top:10px;
+    left:10px;  
+}
+.cross{
+    margin-left:200px;
+}
+
+/* 
+@media(max-width:1615px){
+
+} */
+.sidebarGo{
+    transform: translate(-443px, 8px);
+    position: absolute;
+}
+.blogItem{
+    padding-top:30px;
+}
+.intro{
+    padding-top: 30px;
+}
